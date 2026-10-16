@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>डिजिटल सेवा केंद्र एवं साइबर कैफे | Digital Seva & Cyber Cafe</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Poppins', 'Hind', sans-serif;
+        }
+        .hindi-font {
+            font-family: 'Hind', sans-serif;
+        }
+        .marquee-container {
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        .marquee-content {
+            display: inline-block;
+            animation: marquee 25s linear infinite;
+        }
+        @keyframes marquee {
+            0% { transform: translate3d(0, 0, 0); }
+            100% { transform: translate3d(-50%, 0, 0); }
+        }
+        .marquee-container:hover .marquee-content {
+            animation-play-state: paused;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-blue-600 selection:text-white">
+
+    <!-- Top Alert Bar / News Ticker -->
+    <div class="bg-amber-500 text-slate-900 text-sm font-semibold py-2 px-4 shadow-sm flex items-center">
+        <div class="flex items-center gap-2 bg-amber-600 text-white px-2.5 py-0.5 rounded text-xs uppercase tracking-wider shrink-0 mr-3">
+            <i class="fa-solid fa-bell animate-bounce"></i> न्यू अपडेट
+        </div>
+        <div class="marquee-container w-full text-xs sm:text-sm">
+            <div class="marquee-content font-medium">
+                🔥 SSC GD & CGL ऑनलाइन फॉर्म चालू है | 📢 रेलवे नई भर्ती सूचना जारी | 🪪 आधार-पैन लिंक करवाएं | 📜 आय, जाति, निवास प्रमाण पत्र 3 दिन में प्राप्त करें | 📞 ऑनलाइन फॉर्म भरवाने हेतु WhatsApp करें: 7289978718 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🔥 SSC GD & CGL ऑनलाइन फॉर्म चालू है | 📢 रेलवे नई भर्ती सूचना जारी | 🪪 आधार-पैन लिंक करवाएं | 📜 आय, जाति, निवास प्रमाण पत्र 3 दिन में प्राप्त करें | 📞 ऑनलाइन फॉर्म भरवाने हेतु WhatsApp करें: 7289978718
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation Bar -->
+    <header class="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-slate-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Logo -->
+                <div class="flex items-center gap-3">
+                    <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-blue-700 to-indigo-600 flex items-center justify-center text-white shadow-md shadow-blue-500/20">
+                        <i class="fa-solid fa-laptop-code text-2xl"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-xl font-bold tracking-tight text-slate-900 leading-tight">डिजिटल सेवा केंद्र</h1>
+                        <p class="text-xs font-semibold text-blue-600 uppercase tracking-widest">Cyber Cafe & Online Center</p>
+                    </div>
+                </div>
+
+                <!-- Nav Links (Desktop) -->
+                <nav class="hidden md:flex items-center gap-8 font-medium text-sm text-slate-600">
+                    <a href="#services" class="hover:text-blue-600 transition">सेवाएं (Services)</a>
+                    <a href="#calculator" class="hover:text-blue-600 transition">रेट कैलकुलेटर</a>
+                    <a href="#apply" class="hover:text-blue-600 transition">ऑनलाइन आवेदन</a>
+                    <a href="#contact" class="hover:text-blue-600 transition">संपर्क</a>
+                </nav>
+
+                <!-- Header Actions -->
+                <div class="flex items-center gap-3">
+                    <a href="tel:7289978718" class="hidden sm:inline-flex items-center gap-2 text-sm font-semibold px-4 py-2 rounded-lg border border-slate-300 hover:bg-slate-50 transition text-slate-700">
+                        <i class="fa-solid fa-phone text-blue-600"></i> 7289978718
+                    </a>
+                    <a href="https://wa.me/917289978718?text=नमस्ते,%20मुझे%20साइबर%20कैफे%20की%20सेवाओं%20के%20बारे%20में%20जानकारी%20चाहिए।" target="_blank" class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-semibold px-4 py-2.5 rounded-lg shadow-sm hover:shadow transition">
+                        <i class="fa-brands fa-whatsapp text-lg"></i> WhatsApp करें
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative overflow-hidden bg-gradient-to-b from-blue-50/50 via-white to-slate-50 py-16 sm:py-24 border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-100/80 text-blue-800 text-xs sm:text-sm font-semibold">
+                        <span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+                        दुकान खुली है | तुरंत सेवा उपलब्ध
+                    </div>
+                    <h2 class="text-3xl sm:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
+                        सरकारी फॉर्म, रिजल्ट और सभी ऑनलाइन काम <span class="text-blue-600 underline decoration-blue-300 decoration-wavy">घर बैठे करवाएं</span>
+                    </h2>
+                    <p class="text-slate-600 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                        लाइन में लगने की जरूरत नहीं! कोई भी फॉर्म भरवाना हो, मार्कशीट/फोटो भेजना हो या प्रिंट निकलवाना हो, नीचे दिए गए फॉर्म से डिटेल्स भेजें या सीधे व्हाट्सएप करें।
+                    </p>
+
+                    <!-- Trust Stats -->
+                    <div class="grid grid-cols-3 gap-4 pt-4 border-t border-slate-200 max-w-md mx-auto lg:mx-0 text-left">
+                        <div>
+                            <p class="text-2xl font-bold text-slate-900">100%</p>
+                            <p class="text-xs text-slate-500 font-medium">सही व सुरक्षित फॉर्म</p>
+                        </div>
+                        <div>
+                            <p class="text-2xl font-bold text-slate-900">15 Min</p>
+                            <p class="text-xs text-slate-500 font-medium">फास्ट रिस्पॉन्स</p>
+                        </div>
+                        <div>
+                            <p class="text-2xl font-bold text-slate-900">UPI</p>
+                            <p class="text-xs text-slate-500 font-medium">आसान पेमेंट सुविधा</p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-wrap gap-4 justify-center lg:justify-start pt-2">
+                        <a href="#apply" class="px-6 py-3.5 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-xl shadow-lg shadow-blue-500/20 transition flex items-center gap-2">
+                            <i class="fa-solid fa-file-pen"></i> फॉर्म भरवाएं
+                        </a>
+                        <a href="#calculator" class="px-6 py-3.5 bg-white hover:bg-slate-100 text-slate-700 font-semibold rounded-xl border border-slate-300 transition flex items-center gap-2">
+                            <i class="fa-solid fa-calculator text-blue-600"></i> खर्च कैलकुलेटर
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Fast Info Card / Hero Right -->
+                <div class="lg:col-span-5">
+                    <div class="bg-white rounded-2xl shadow-xl border border-slate-200 p-6 relative">
+                        <div class="absolute -top-3 right-6 bg-gradient-to-r from-emerald-600 to-teal-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow">
+                            WhatsApp सपोर्ट एक्टिव
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-4 flex items-center gap-2">
+                            <i class="fa-solid fa-bolt text-amber-500"></i> लोकप्रिय सेवाएं (Popular Services)
+                        </h3>
+                        <div class="space-y-3">
+                            <div class="p-3 bg-slate-50 hover:bg-blue-50/60 rounded-xl border border-slate-200/80 transition flex items-center justify-between">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-9 h-9 rounded-lg bg-blue-100 text-blue-600 flex items-center justify-center font-bold text-sm">1</div>
+                                    <div>
+                                        <h4 class="text-sm font-semibold text-slate-800">Sarkari Job Exam Form</h4>
+                                        <p class="text-xs text-slate-500">SSC, Railway, Police, Army, CTET</p>
+                                    </div>
+                                </div>
+                                <span class="text-xs font-bold text-emerald-600 bg-emerald-50 px-2 py-1 rounded">चालू</span>
+                            </div>
+
+                            <div class="p-3 bg-slate-50 hover:bg-blue-50/60 rounded-xl border border-slate-200/80 transition flex items-center justify-between">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-9 h-9 rounded-lg bg-indigo-100 text-indigo-600 flex items-center justify-center font-bold text-sm">2</div>
+                                    <div>
+                                        <h4 class="text-sm font-semibold text-slate-800">प्रमाण पत्र सेवाएं</h4>
+                                        <p class="text-xs text-slate-500">जाति, आय, निवास, ईडब्ल्यूएस (EWS)</p>
+                                    </div>
+                                </div>
+                                <span class="text-xs font-bold text-blue-600 bg-blue-50 px-2 py-1 rounded">फास्ट</span>
+                            </div>
+
+                            <div class="p-3 bg-slate-50 hover:bg-blue-50/60 rounded-xl border border-slate-200/80 transition flex items-center justify-between">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-9 h-9 rounded-lg bg-amber-100 text-amber-600 flex items-center justify-center font-bold text-sm">3</div>
+                                    <div>
+                                        <h4 class="text-sm font-semibold text-slate-800">PAN & Aadhaar Services</h4>
+                                        <p class="text-xs text-slate-500">नया पैन कार्ड, सुधार, आधार डाउनलोड</p>
+                                    </div>
+                                </div>
+                                <span class="text-xs font-bold text-amber-600 bg-amber-50 px-2 py-1 rounded">उपलब्ध</span>
+                            </div>
+
+                            <div class="p-3 bg-slate-50 hover:bg-blue-50/60 rounded-xl border border-slate-200/80 transition flex items-center justify-between">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-9 h-9 rounded-lg bg-emerald-100 text-emerald-600 flex items-center justify-center font-bold text-sm">4</div>
+                                    <div>
+                                        <h4 class="text-sm font-semibold text-slate-800">कलर प्रिंट & फोटो</h4>
+                                        <p class="text-xs text-slate-500">पासपोर्ट फोटो, लेमिनेशन, जेरोक्स</p>
+                                    </div>
+                                </div>
+                                <span class="text-xs font-bold text-purple-600 bg-purple-50 px-2 py-1 rounded">तुरंत</span>
+                            </div>
+                        </div>
+
+                        <div class="mt-5 p-3 rounded-xl bg-blue-50 border border-blue-200 flex items-center justify-between text-xs">
+                            <span class="text-slate-600 font-medium">दुकानदार हेल्प नंबर:</span>
+                            <span class="font-bold text-blue-700 font-mono text-sm">7289978718</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section id="services" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-blue-600 font-bold text-xs uppercase tracking-wider bg-blue-50 px-3 py-1 rounded-full">हमारी सुविधाएं</span>
+                <h2 class="text-3xl font-extrabold text-slate-900 mt-2">सभी प्रकार की डिजिटल सेवाएं उपलब्ध हैं</h2>
+                <p class="text-slate-500 text-sm mt-2">दुकान पर आएं या घर बैठे डॉक्यूमेंट भेजकर काम करवाएं</p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Service 1 -->
+                <div class="p-6 rounded-2xl border border-slate-200 hover:border-blue-300 hover:shadow-lg transition group bg-slate-50/50 hover:bg-white">
+                    <div class="w-12 h-12 rounded-xl bg-blue-600 text-white flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-1">सरकारी भर्ती व एडमिशन फॉर्म</h3>
+                    <p class="text-xs text-slate-500 mb-4">SSC, UPSC, Railway, Police, Army, Agniveer, College & School Admission.</p>
+                    <button onclick="quickApply('सरकारी नौकरी फॉर्म')" class="text-sm font-semibold text-blue-600 hover:text-blue-700 flex items-center gap-1.5">
+                        आवेदन भेजें <i class="fa-solid fa-arrow-right text-xs"></i>
+                    </button>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="p-6 rounded-2xl border border-slate-200 hover:border-blue-300 hover:shadow-lg transition group bg-slate-50/50 hover:bg-white">
+                    <div class="w-12 h-12 rounded-xl bg-emerald-600 text-white flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-address-card"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-1">PAN & आधार सेवाएं</h3>
+                    <p class="text-xs text-slate-500 mb-4">नया पैन कार्ड मात्र 10 मिनट में, पैन सुधार, आधार प्रिंट, आधार-पैन लिंकिंग।</p>
+                    <button onclick="quickApply('PAN / Aadhaar सेवा')" class="text-sm font-semibold text-emerald-600 hover:text-emerald-700 flex items-center gap-1.5">
+                        आवेदन भेजें <i class="fa-solid fa-arrow-right text-xs"></i>
+                    </button>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="p-6 rounded-2xl border border-slate-200 hover:border-blue-300 hover:shadow-lg transition group bg-slate-50/50 hover:bg-white">
+                    <div class="w-12 h-12 rounded-xl bg-indigo-600 text-white flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-certificate"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-1">आय, जाति, निवास प्रमाण पत्र</h3>
+                    <p class="text-xs text-slate-500 mb-4">ई-डिस्ट्रिक्ट सेवाएं, जन्म प्रमाण पत्र, राशन कार्ड आवेदन एवं EWS सर्टिफिकेट।</p>
+                    <button onclick="quickApply('जाति / आय / निवास प्रमाण पत्र')" class="text-sm font-semibold text-indigo-600 hover:text-indigo-700 flex items-center gap-1.5">
+                        आवेदन भेजें <i class="fa-solid fa-arrow-right text-xs"></i>
+                    </button>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="p-6 rounded-2xl border border-slate-200 hover:border-blue-300 hover:shadow-lg transition group bg-slate-50/50 hover:bg-white">
+                    <div class="w-12 h-12 rounded-xl bg-amber-600 text-white flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-print"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-1">प्रिंटआउट, फोटोकॉपी & फोटो</h3>
+                    <p class="text-xs text-slate-500 mb-4">हाई-क्वालिटी कलर प्रिंट, ब्लैक & व्हाइट फोटोकॉपी, लेमिनेशन, अर्जेंट 8 पासपोर्ट फोटो।</p>
+                    <button onclick="quickApply('प्रिंटआउट और फोटो सेवा')" class="text-sm font-semibold text-amber-600 hover:text-amber-700 flex items-center gap-1.5">
+                        आवेदन भेजें <i class="fa-solid fa-arrow-right text-xs"></i>
+                    </button>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="p-6 rounded-2xl border border-slate-200 hover:border-blue-300 hover:shadow-lg transition group bg-slate-50/50 hover:bg-white">
+                    <div class="w-12 h-12 rounded-xl bg-red-600 text-white flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-money-bill-transfer"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-1">AEPS आधार से पैसे निकासी</h3>
+                    <p class="text-xs text-slate-500 mb-4">अंगूठा लगाकर किसी भी बैंक से पैसे निकालें, बैलेंस चेक, मिनी स्टेटमेंट एवं मनी ट्रांसफर।</p>
+                    <button onclick="quickApply('AEPS मनी ट्रांसफर / निकासी')" class="text-sm font-semibold text-red-600 hover:text-red-700 flex items-center gap-1.5">
+                        आवेदन भेजें <i class="fa-solid fa-arrow-right text-xs"></i>
+                    </button>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="p-6 rounded-2xl border border-slate-200 hover:border-blue-300 hover:shadow-lg transition group bg-slate-50/50 hover:bg-white">
+                    <div class="w-12 h-12 rounded-xl bg-teal-600 text-white flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-ticket"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-1">टिकट बुकिंग & बिल भुगतान</h3>
+                    <p class="text-xs text-slate-500 mb-4">रेलवे (IRCTC) कन्फर्म टिकट, बस/हवाई टिकट, बिजली बिल, पानी बिल एवं मोबाइल रिचार्ज।</p>
+                    <button onclick="quickApply('टिकट बुकिंग / बिल भुगतान')" class="text-sm font-semibold text-teal-600 hover:text-teal-700 flex items-center gap-1.5">
+                        आवेदन भेजें <i class="fa-solid fa-arrow-right text-xs"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Price / Bill Calculator -->
+    <section id="calculator" class="py-16 bg-slate-100/70 border-y border-slate-200">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6">
+            <div class="text-center mb-10">
+                <span class="text-blue-600 font-bold text-xs uppercase tracking-wider bg-blue-100 px-3 py-1 rounded-full">पारदर्शी दाम</span>
+                <h2 class="text-3xl font-extrabold text-slate-900 mt-2">खर्च अनुमान कैलकुलेटर (Price Estimate)</h2>
+                <p class="text-slate-500 text-sm mt-1">अपनी जरूरत चुनें और तुरंत अनुमानित बिल बनाकर WhatsApp पर भेजें</p>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-md border border-slate-200 p-6 sm:p-8">
+                <div class="grid sm:grid-cols-2 gap-6 mb-8">
+                    <!-- Item 1 -->
+                    <div class="flex items-center justify-between p-3.5 bg-slate-50 rounded-xl border border-slate-200">
+                        <div>
+                            <p class="font-semibold text-slate-800 text-sm">ब्लैक & व्हाइट प्रिंट / जेरोक्स</p>
+                            <p class="text-xs text-slate-500">₹5 / पेज</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <input type="number" id="calc_bw" value="0" min="0" oninput="calculateTotal()" class="w-16 px-2.5 py-1 text-center font-bold text-slate-900 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="flex items-center justify-between p-3.5 bg-slate-50 rounded-xl border border-slate-200">
+                        <div>
+                            <p class="font-semibold text-slate-800 text-sm">कलर प्रिंटआउट (Photo Paper / Plain)</p>
+                            <p class="text-xs text-slate-500">₹20 / पेज</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <input type="number" id="calc_color" value="0" min="0" oninput="calculateTotal()" class="w-16 px-2.5 py-1 text-center font-bold text-slate-900 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="flex items-center justify-between p-3.5 bg-slate-50 rounded-xl border border-slate-200">
+                        <div>
+                            <p class="font-semibold text-slate-800 text-sm">पासपोर्ट साइज फोटो (8 पीस)</p>
+                            <p class="text-xs text-slate-500">₹60 / सेट</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <input type="number" id="calc_photo" value="0" min="0" oninput="calculateTotal()" class="w-16 px-2.5 py-1 text-center font-bold text-slate-900 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                    </div>
+
+                    <!-- Item 4 -->
+                    <div class="flex items-center justify-between p-3.5 bg-slate-50 rounded-xl border border-slate-200">
+                        <div>
+                            <p class="font-semibold text-slate-800 text-sm">लेमिनेशन (A4 / डॉक्यूमेंट)</p>
+                            <p class="text-xs text-slate-500">₹20 / पीस</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <input type="number" id="calc_lam" value="0" min="0" oninput="calculateTotal()" class="w-16 px-2.5 py-1 text-center font-bold text-slate-900 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                    </div>
+
+                    <!-- Item 5 -->
+                    <div class="flex items-center justify-between p-3.5 bg-slate-50 rounded-xl border border-slate-200 sm:col-span-2">
+                        <div>
+                            <p class="font-semibold text-slate-800 text-sm">सरकारी फॉर्म आवेदन शुल्क (Cyber Cafe Charge)</p>
+                            <p class="text-xs text-slate-500">₹100 / फॉर्म</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <input type="number" id="calc_form" value="0" min="0" oninput="calculateTotal()" class="w-16 px-2.5 py-1 text-center font-bold text-slate-900 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Total & Action -->
+                <div class="bg-blue-50 p-4 rounded-xl flex flex-col sm:flex-row items-center justify-between gap-4 border border-blue-200">
+                    <div>
+                        <span class="text-xs font-semibold text-slate-500 uppercase">कुल अनुमानित राशि:</span>
+                        <div class="text-2xl sm:text-3xl font-extrabold text-blue-700" id="total_price_display">₹0</div>
+                    </div>
+                    <button onclick="sendCalculatorToWhatsApp()" class="w-full sm:w-auto px-6 py-3 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold rounded-xl flex items-center justify-center gap-2 shadow transition">
+                        <i class="fa-brands fa-whatsapp text-lg"></i> यह कोटेशन WhatsApp पर भेजें
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Online Apply & Document Submission Form (DIRECT TO WHATSAPP 7289978718) -->
+    <section id="apply" class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6">
+            <div class="text-center mb-10">
+                <span class="text-blue-600 font-bold text-xs uppercase tracking-wider bg-blue-50 px-3 py-1 rounded-full">ऑनलाइन आवेदन</span>
+                <h2 class="text-3xl font-extrabold text-slate-900 mt-2">ऑनलाइन फॉर्म भरवाने हेतु विवरण भरें</h2>
+                <p class="text-slate-500 text-sm mt-1">यह फॉर्म भरते ही पूरी डिटेल्स सीधे आपके WhatsApp (7289978718) पर पहुंच जाएगी</p>
+            </div>
+
+            <div class="bg-slate-50 border border-slate-200 rounded-2xl shadow-sm p-6 sm:p-10">
+                <form id="cyberCafeForm" onsubmit="handleFormSubmit(event)" class="space-y-6">
+                    <div class="grid sm:grid-cols-2 gap-6">
+                        <!-- Full Name -->
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 uppercase mb-2">आपका पूरा नाम (Full Name) *</label>
+                            <input type="text" id="cust_name" required placeholder="उदा. राहुल कुमार" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-sm">
+                        </div>
+
+                        <!-- Phone Number -->
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 uppercase mb-2">मोबाइल नंबर (Mobile No.) *</label>
+                            <input type="tel" id="cust_phone" required placeholder="उदा. 9876543210" pattern="[0-9]{10}" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-sm">
+                        </div>
+                    </div>
+
+                    <div class="grid sm:grid-cols-2 gap-6">
+                        <!-- Service Type -->
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 uppercase mb-2">कौन सा फॉर्म / काम करवाना है? *</label>
+                            <select id="cust_service" required class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-sm">
+                                <option value="सरकारी नौकरी (SSC, Police, Railway etc.)">सरकारी नौकरी (SSC, Police, Railway etc.)</option>
+                                <option value="नया PAN कार्ड / पैन सुधार">नया PAN कार्ड / पैन सुधार</option>
+                                <option value="आय, जाति या निवास प्रमाण पत्र">आय, जाति या निवास प्रमाण पत्र</option>
+                                <option value="एडमिट कार्ड / रिजल्ट डाउनलोड व प्रिंट">एडमिट कार्ड / रिजल्ट डाउनलोड व प्रिंट</option>
+                                <option value="कॉलेज / यूनिवर्सिटी एडमिशन फॉर्म">कॉलेज / यूनिवर्सिटी एडमिशन फॉर्म</option>
+                                <option value="डॉक्यूमेंट प्रिंट / फोटो">डॉक्यूमेंट प्रिंट / फोटो</option>
+                                <option value="अन्य ऑनलाइन कार्य">अन्य ऑनलाइन कार्य</option>
+                            </select>
+                        </div>
+
+                        <!-- Urgency -->
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 uppercase mb-2">समय सीमा (Urgency) *</label>
+                            <select id="cust_urgency" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-sm">
+                                <option value="आज ही चाहिए (Emergency Today)">आज ही चाहिए (Emergency Today)</option>
+                                <option value="1 से 2 दिन में (Normal)">1 से 2 दिन में (Normal)</option>
+                                <option value="केवल जानकारी चाहिए (Inquiry)">केवल जानकारी चाहिए (Inquiry)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Details / Instructions -->
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 uppercase mb-2">फॉर्म का नाम या अतिरिक्त जानकारी (Details / Notes)</label>
+                        <textarea id="cust_notes" rows="3" placeholder="उदा. SSC GD फॉर्म भरना है, 10वीं की मार्कशीट और फोटो भेज रहा हूँ..." class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-sm"></textarea>
+                    </div>
+
+                    <!-- Info Box -->
+                    <div class="p-4 bg-emerald-50 border border-emerald-200 rounded-xl flex items-start gap-3">
+                        <i class="fa-brands fa-whatsapp text-emerald-600 text-xl mt-0.5"></i>
+                        <p class="text-xs text-emerald-800 leading-relaxed">
+                            <strong>नोट:</strong> "फॉर्म सबमिट करें" दबाने पर यह पूरी जानकारी तैयार होकर आपके WhatsApp में खुल जाएगी। आप साथ में अपनी मार्कशीट/फोटो वहीं पर अटैच करके सीधे भेज सकेंगे।
+                        </p>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <button type="submit" class="w-full py-4 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl text-base shadow-lg shadow-blue-500/20 transition flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-xl"></i> फॉर्म विवरण WhatsApp (7289978718) पर भेजें
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Payment & QR Code Section -->
+    <section class="py-16 bg-slate-100/70 border-t border-slate-200">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+            <span class="text-blue-600 font-bold text-xs uppercase tracking-wider bg-blue-100 px-3 py-1 rounded-full">डिजिटल भुगतान</span>
+            <h2 class="text-3xl font-extrabold text-slate-900 mt-2">ऑनलाइन फीस भुगतान (Online Payment)</h2>
+            <p class="text-slate-500 text-sm mt-1 mb-8">Google Pay, PhonePe, Paytm या किसी भी UPI ऐप से सीधे पेमेंट करें</p>
+
+            <div class="inline-block bg-white p-6 sm:p-8 rounded-3xl shadow-lg border border-slate-200 max-w-sm w-full text-center">
+                <div class="w-48 h-48 mx-auto bg-slate-50 border-2 border-dashed border-slate-300 rounded-2xl flex flex-col items-center justify-center p-2 mb-4">
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=upi://pay?pa=7289978718@upi&pn=Digital%20Seva%20Kendra" alt="UPI QR Code" class="w-full h-full object-contain">
+                </div>
+                <div class="space-y-1">
+                    <p class="text-xs font-semibold text-slate-400 uppercase">UPI Number / Mobile</p>
+                    <p class="text-xl font-bold font-mono text-slate-900">7289978718</p>
+                    <p class="text-xs text-emerald-600 font-medium">✓ PhonePe / GPay / Paytm Accepted</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-slate-900 text-slate-300 py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-8 mb-8 text-center md:text-left">
+                <div>
+                    <h3 class="text-white text-lg font-bold mb-3 flex items-center justify-center md:justify-start gap-2">
+                        <i class="fa-solid fa-laptop-code text-blue-500"></i> डिजिटल सेवा केंद्र
+                    </h3>
+                    <p class="text-sm text-slate-400 leading-relaxed">
+                        आपके नजदीकी भरोसेमंद साइबर कैफे और ऑनलाइन सेवा केंद्र। सभी सरकारी फॉर्म, रिजल्ट, प्रिंट एवं ऑनलाइन कार्य विश्वसनीयता के साथ।
+                    </p>
+                </div>
+                <div>
+                    <h4 class="text-white text-sm font-bold uppercase tracking-wider mb-3">समय व दिन</h4>
+                    <p class="text-sm text-slate-400">सोमवार से शनिवार: सुबह 8:00 AM - रात 9:00 PM</p>
+                    <p class="text-sm text-slate-400">रविवार: सुबह 9:00 AM - दोपहर 3:00 PM</p>
+                    <p class="text-xs text-emerald-400 mt-2 font-medium">● ऑनलाइन WhatsApp सेवा 24x7 उपलब्ध</p>
+                </div>
+                <div>
+                    <h4 class="text-white text-sm font-bold uppercase tracking-wider mb-3">संपर्क सूत्र</h4>
+                    <p class="text-sm text-slate-400">कॉल / WhatsApp: <a href="tel:7289978718" class="text-white font-bold hover:underline">7289978718</a></p>
+                    <p class="text-sm text-slate-400 mt-1">स्थान: मुख्य बाजार, आपके शहर / गांव में</p>
+                </div>
+            </div>
+
+            <div class="pt-8 border-t border-slate-800 text-center text-xs text-slate-500">
+                © 2026 डिजिटल सेवा केंद्र एवं साइबर कैफे | All Rights Reserved. WhatsApp: +91 7289978718
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/917289978718?text=नमस्ते%20मुझे%20ऑनलाइन%20फॉर्म%20के%20बारे%20में%20पूछना%20है।" target="_blank" class="fixed bottom-6 right-6 z-50 bg-emerald-500 hover:bg-emerald-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition duration-300">
+        <i class="fa-brands fa-whatsapp text-3xl"></i>
+    </a>
+
+    <!-- JavaScript For Automatic WhatsApp Routing -->
+    <script>
+        // आपका मोबाइल नंबर (हर जगह ऑटो-लिंक्ड)
+        const MY_WHATSAPP_NUMBER = "917289978718";
+
+        // 1. जब ग्राहक ऑनलाइन फॉर्म भरेगा तो सीधे WhatsApp पर मैसेज तैयार होगा
+        function handleFormSubmit(event) {
+            event.preventDefault();
+
+            const name = document.getElementById('cust_name').value.trim();
+            const phone = document.getElementById('cust_phone').value.trim();
+            const service = document.getElementById('cust_service').value;
+            const urgency = document.getElementById('cust_urgency').value;
+            const notes = document.getElementById('cust_notes').value.trim() || 'कोई अतिरिक्त नोट नहीं';
+
+            // WhatsApp Message Text Formatter
+            const message = `*📋 नया ऑनलाइन फॉर्म आवेदन (Cyber Cafe)*\n` +
+                            `------------------------------------\n` +
+                            `👤 *ग्राहक का नाम:* ${name}\n` +
+                            `📞 *मोबाइल नंबर:* ${phone}\n` +
+                            `🎯 *सेवा का प्रकार:* ${service}\n` +
+                            `⏱️ *समय सीमा:* ${urgency}\n` +
+                            `📝 *विवरण/नोट:* ${notes}\n` +
+                            `------------------------------------\n` +
+                            `_मैं दस्तावेज (Photo/Marksheet) नीचे भेज रहा हूँ..._`;
+
+            const encodedMessage = encodeURIComponent(message);
+            const waUrl = `https://wa.me/${MY_WHATSAPP_NUMBER}?text=${encodedMessage}`;
+
+            // Redirect customer to WhatsApp
+            window.open(waUrl, '_blank');
+        }
+
+        // 2. रेट कैलकुलेटर से WhatsApp कोटेशन भेजना
+        function calculateTotal() {
+            const bw = parseInt(document.getElementById('calc_bw').value) || 0;
+            const color = parseInt(document.getElementById('calc_color').value) || 0;
+            const photo = parseInt(document.getElementById('calc_photo').value) || 0;
+            const lam = parseInt(document.getElementById('calc_lam').value) || 0;
+            const form = parseInt(document.getElementById('calc_form').value) || 0;
+
+            const total = (bw * 5) + (color * 20) + (photo * 60) + (lam * 20) + (form * 100);
+            document.getElementById('total_price_display').innerText = `₹${total}`;
+            return { bw, color, photo, lam, form, total };
+        }
+
+        function sendCalculatorToWhatsApp() {
+            const bill = calculateTotal();
+            if (bill.total === 0) {
+                alert('कृपया पहले कम से कम एक आइटम की संख्या दर्ज करें!');
+                return;
+            }
+
+            const message = `*🧾 साइबर कैफे कोटेशन / आर्डर विवरण*\n` +
+                            `------------------------------------\n` +
+                            (bill.bw > 0 ? `• B&W प्रिंट: ${bill.bw} पेज (₹${bill.bw * 5})\n` : '') +
+                            (bill.color > 0 ? `• कलर प्रिंट: ${bill.color} पेज (₹${bill.color * 20})\n` : '') +
+                            (bill.photo > 0 ? `• पासपोर्ट फोटो सेट: ${bill.photo} (₹${bill.photo * 60})\n` : '') +
+                            (bill.lam > 0 ? `• लेमिनेशन: ${bill.lam} (₹${bill.lam * 20})\n` : '') +
+                            (bill.form > 0 ? `• सरकारी फॉर्म फीस: ${bill.form} (₹${bill.form * 100})\n` : '') +
+                            `------------------------------------\n` +
+                            `💰 *कुल अनुमानित राशि: ₹${bill.total}*\n` +
+                            `कृपया इस आर्डर को प्रोसेस करें।`;
+
+            const encodedMessage = encodeURIComponent(message);
+            window.open(`https://wa.me/${MY_WHATSAPP_NUMBER}?text=${encodedMessage}`, '_blank');
+        }
+
+        // 3. सर्विस ग्रिड से डायरेक्ट अप्लाई बटन
+        function quickApply(serviceName) {
+            const selectBox = document.getElementById('cust_service');
+            for (let i = 0; i < selectBox.options.length; i++) {
+                if (selectBox.options[i].text.includes(serviceName) || selectBox.options[i].value.includes(serviceName)) {
+                    selectBox.selectedIndex = i;
+                    break;
+                }
+            }
+            document.getElementById('apply').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
